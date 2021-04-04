@@ -1,0 +1,31 @@
+
+		body 
+		{
+			margin: 0;
+  			padding: 0;
+			background-image: url(images/web3.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			font-family: Courier New;
+		}
+		a
+		{
+			text-decoration: none;
+			color: black;
+		}
+		a:hover 
+		{
+			color: purple;
+		}
+		.zoomin img
+		{
+  			height: 220px;
+ 			 width: 320px;
+  			transition: transform .5s ease;
+		}
+		.zoomin img:hover
+		 {
+ 			 transform: scale(1.5);
+		}   
+	

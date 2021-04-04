@@ -1,0 +1,26 @@
+
+body 
+{
+    margin:0;
+    padding:0;
+    background-image: url(images/web1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:Courier New;
+}
+a
+{
+    text-decoration: none;
+    color: blue;
+}
+a:hover 
+{
+    color: purple;
+}
+b {
+    margin-top:50%;
+    border: 2px solid black;
+    border-radius :10px;
+    border-style: inset;
+}
